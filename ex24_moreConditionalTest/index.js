@@ -1,0 +1,18 @@
+var test = "Hello";
+console.log("Is Hello == hello? | Predict False \n".concat(test == "hello"));
+console.log("Is Hello != hello? | Predict True \n".concat(test != "hello"));
+console.log("Is Hello.toLowerCase() == hello? | Predict True \n".concat(test.toLowerCase() == "hello"));
+var num = 23;
+console.log("23 > 20 | Predict True \n".concat(num > 20));
+console.log("23 < 20 | Predict False \n".concat(num < 20));
+console.log("23 >= 20 | Predict True \n".concat(num >= 20));
+console.log("23 <= 20 | Predict False \n".concat(num <= 20));
+console.log("23 == 20 | Predict False \n".concat(num == 20));
+console.log("23 != 20 | Predict True \n".concat(num != 20));
+var a = "Hello";
+var b = 10;
+console.log("a == \"Hello\" || b == 15 | Predict True \n".concat(a == "Hello" || b == 15));
+console.log("a == \"Hello\" && b == 15 | Predict False \n".concat(a == "Hello" && b == 15));
+var arr = [10, 12, 13, 14];
+console.log("Is 12 in array? | Predict True \n".concat(arr.includes(12)));
+console.log("Is 15 in array? | Predict False \n".concat(arr.includes(15)));
